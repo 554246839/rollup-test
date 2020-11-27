@@ -1,3 +1,5 @@
+## 中文文档 https://www.rollupjs.com/guide/introduction/
+
 ### rollup -f -o -c -w
 
 -f。-f参数是--format的缩写，它表示生成代码的格式，amd表示采用AMD标准，cjs为CommonJS标准，esm（或 es）为ES模块标准。-f的值可以为amd、cjs、system、esm（'es’也可以）、iife或umd中的任何一个。
