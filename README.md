@@ -23,6 +23,7 @@ rollup.js编译源码中的模块引用默认只支持 ES6+的模块方式import
 为@rollup/plugin-babel核心，必须配套使用
 
 ### 添加.babelrc文件，安装@babel/preset-env插件
+```json
 {
   "presets": [
     [
@@ -34,6 +35,7 @@ rollup.js编译源码中的模块引用默认只支持 ES6+的模块方式import
     ]
   ]
 }
+```
 
 ### @rollup/plugin-json
 用来支持json文件
