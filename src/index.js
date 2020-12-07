@@ -1,7 +1,8 @@
 import answer from "the-answer";
 import json from "../package.json";
+import Test from "./test.ts"
 
-export default function () {
+export default function bundle () {
   console.log("the answer is " + answer);
   const a = 1;
   const b = 2;
@@ -10,6 +11,10 @@ export default function () {
     return a + b;
   };
   console.log(ab);
+
+  const test = new Test()
+  const val = test.fn(3)
+  console.log(val, 'val')
 
   const treeShaking = 'treeShaking'
 
